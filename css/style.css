@@ -22,6 +22,9 @@ border: 0;
 .navbar-brand a:hover, .navbrand-brand a:focus{
     text-decoration: none;
 }
+div{
+  padding: 10px;
+ }
 
 
 #nav-list{
@@ -53,7 +56,13 @@ border: 0;
 section{
     background-color: grey;
     color: black;
-    height: 700px;
+   
+}
+
+.three{
+  background-color: grey;
+  color: black;
+ 
 }
 
 #align {
