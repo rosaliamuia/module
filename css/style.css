@@ -1,0 +1,158 @@
+#header-nav {
+background-color: grey;
+border-radius: 0;
+border: 0;
+}
+
+.navbar-brand {
+    padding-top: 25px;
+}
+.navbar-brand h1 {
+    color: #000;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1 px 1 px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+    text-align: left;
+}
+
+.navbar-brand a:hover, .navbrand-brand a:focus{
+    text-decoration: none;
+}
+
+
+#nav-list{
+    margin-top: 5px;
+}
+
+#nav-list a{
+    color: #000;
+    text-align: center;
+}
+
+#nav-list a:hover{
+    background: #E7E7E7;
+}
+
+#nav-list a span {
+    font-size: 1.8em;
+}
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #61122f;
+}
+
+.navbar-header button.navbar-toggle {
+    clear:both;
+    margin-top: -30px;
+}
+section{
+    background-color: grey;
+    color: black;
+    height: 700px;
+}
+
+#align {
+        position: relative;
+        text-align: center;
+        padding: 8px;
+        font-weight:bold;
+    }
+
+    #title{
+        text-align: center;
+    }
+
+
+/* @media (min-width:1200px) {
+    .col-lg-4, .col-lg-6, .col-lg-12{
+        float: left;
+      } 
+
+      .col-lg-4{
+        width: 33.3%;
+      }
+      .col-lg-6{
+        width: 50%;
+      }
+      .col-lg-12{
+        width: 100%;
+      }
+
+} */
+
+@media(min-width:992px) and (max-width:1199px){
+
+    .col-lg-4, .col-lg-6, .col-lg-12{
+        float: left;
+      } 
+
+      .col-lg-4{
+        width: 33.3%;
+      }
+      .col-lg-6{
+        width: 50%;
+      }
+      .col-lg-12{
+        width: 100%;
+      }
+     
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-4, .col-md-6, .col-md-12{
+        float: left;
+      } 
+      .col-md-4{
+        width: 33.3%;
+      }
+      .col-md-6{
+        width: 50%;
+      }
+      .col-md-12{
+        width: 100%;
+      }
+    
+      }
+@media (max-width:767px) {
+    .navbar-brand {
+        padding-top: 10px;
+        height: 80px;
+    }
+    .navbar brand h1{
+        padding-top: 10px;
+        font-size:5vw;
+    }
+    .navbar-brand p{
+        font-size: .6em;
+    }
+    .navbrand p img{
+        height:20px;
+    }
+    #collapsable-nav a{
+        font-size: 1.2em;
+    }
+    #collapsable-nav a span{
+        font-size: 1em;
+        margin-right: 5px;
+    }
+
+    .col-sm-4, .col-sm-6, .col-sm-12{
+        float: left;
+      }
+      .col-sm-4{
+        width: 33.3%;
+      }
+      .col-sm-6{
+        width: 50%;
+      }
+      .col-sm-12{
+        width: 100%;
+      }
+    }    
+
+}
